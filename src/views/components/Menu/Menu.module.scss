@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.container {
+}
+
+.itemContainer {
+
+}
+
+.itemImage {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: $accent-color;
+}
+
+.itemTitle {
+    font-size: 0.8rem;
+    color: $accent-color;
+}
