@@ -3,3 +3,4 @@ config
 package-lock.json
 package.json
 *.html
+react-app-env.d.ts
