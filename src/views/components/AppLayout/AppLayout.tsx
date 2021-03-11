@@ -1,9 +1,9 @@
 import React, { useEffect, useState, createContext, useContext } from "react";
-import ContentLayout from "../../components/ContentLayout/ContentLayout";
-import Toolbar from "../../components/Toolbar/Toolbar";
-import VerticalLayout from "../../components/VerticalLayout/VerticalLayout";
+import ContentLayout from "../ContentLayout/ContentLayout";
+import Toolbar from "../Toolbar/Toolbar";
+import VerticalLayout from "../VerticalLayout/VerticalLayout";
 import MobileDetect from 'mobile-detect';
-import BottomPanel from "../../components/BottomPanel/BottomPanel";
+import BottomPanel from '../BottomPanel/BottomPanel';
 
 export type IsMobileContextType = {
     isMobile: boolean;
